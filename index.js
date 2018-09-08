@@ -14,10 +14,9 @@ restService.use(
 restService.use(bodyParser.json());
 restService.get('/',function(req,res){
   return res.json({
-    speech: 'sample',
-    displayText: 'sample',
-    source: "webhook-name-sample"
-  });
+  "fulfillmentText": sjsdndvvjndj
+  
+});
 });
 restService.post('/checkavailable', function(request, response) {
   var name = request.body.queryResult &&
